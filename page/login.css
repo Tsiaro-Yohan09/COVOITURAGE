@@ -1,0 +1,239 @@
+body{
+    margin: 0%;
+    font-family: sans-serif;
+}
+.corps{
+    width: 100%;
+    height: 635px;
+    background-image: url(/page/image\ page/covoiturage.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
+.soratra{
+    width: 50%;
+    height: 635px;
+    background-color: rgba(72, 72, 95, 0.541);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.H1srtr{
+    margin-top: 90px;
+    color: rgb(229, 229, 231);
+}
+.psrtr{
+    color: rgb(236, 246, 255);
+    font-size: 19px;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+.H3srtr{
+    margin-top: 30px;
+    color: rgb(228, 228, 228);
+}
+.ligne1{
+    width: 69%;
+    height: 2px;
+    background-color: white;
+}
+.ligne2{
+    width: 69%;
+    height: 2px;
+    background-color: white;
+}
+form{
+    width: 50%;
+    height: 635px;
+    background-color: rgba(72, 72, 95, 0.541);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h2frm{
+    color: rgb(229, 229, 231);
+}
+.IpDIV{
+    width: 70%;
+    height: 500px ;
+    background-color: rgba(35, 35, 49, 0.774);
+    border:3px solid #f3f2f2;
+    border-radius: 20px;
+}
+input{
+    width: 95%;
+    height: 20px;
+    border-radius: 8px;
+    border-top: none;
+}
+.BT1{
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+    background-color: rgba(72, 72, 95, 0.541) ;
+    color: rgb(229, 229, 231);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 160px;
+}
+.Or{
+    color: rgb(229, 229, 231);
+    margin-left: 225px;
+}
+.BT2{
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+    background-color: rgba(72, 72, 95, 0.541) ;
+    color: rgb(229, 229, 231);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 160px;
+}
+
+.PForm{
+    color: rgb(229, 229, 231);
+    font-size: 16px;
+}
+.form2{
+    width: 50%;
+    height: 635px;
+    background-color: rgba(72, 72, 95, 0.541);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.IpDIV2{
+    width: 70%;
+    height: 500px ;
+    background-color: rgba(35, 35, 49, 0.774);
+    border:3px solid #f3f2f2;
+    border-radius: 20px;
+}
+.h2frm2{
+    color: rgb(229, 229, 231);
+}
+.h2frm21{
+    color: rgb(229, 229, 231);
+    margin-top: 61px;
+}
+.pform2{
+    color: rgb(229, 229, 231);
+    font-size: 16px;
+}
+.BT3{
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+    background-color: rgba(72, 72, 95, 0.541) ;
+    color: rgb(229, 229, 231);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 160px;
+}
+.Or2{
+    color: rgb(229, 229, 231);
+    margin-left: 225px;
+}
+.BT4{
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+    background-color: rgba(72, 72, 95, 0.541) ;
+    color: rgb(229, 229, 231);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 160px;
+}
+.DVNom{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(31, 31, 59);
+    margin-top: 25px;
+    border-bottom-right-radius: 17px;
+    border-bottom-left-radius: 17px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
+}
+.By{
+    width: 10%;
+    height: 30px;
+    background-color:   rgb(72, 72, 95) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 17px;
+    position: absolute;
+    z-index: 1;
+}
+.scroll{
+    width: 90%;
+    height: 30px;
+    background-color: rgb(31, 31, 59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-bottom-right-radius: 17px;
+    white-space: nowrap;
+    animation: scrollLeft 20s linear infinite;
+}
+@keyframes scrollLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+.soratra2{
+    width: 50%;
+    height: 635px;
+    background-color: rgba(72, 72, 95, 0.541);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.H1srtr2{
+    margin-top: 70px;
+    color: rgb(229, 229, 231);
+}
+.ligne3{
+    width: 79%;
+    height: 2px;
+    background-color: white;
+}
+.psrtr2{
+    color: rgb(236, 246, 255);
+    font-size: 19px;
+    margin-top: 50px;
+    margin-bottom: 50px 
+}
+.ligne4{
+    width: 79%;
+    height: 2px;
+    background-color: white;
+}
+.H3srtr2{
+    margin-top: 30px;
+    color: rgb(228, 228, 228);
+}
+#V3{
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+#V4{
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}

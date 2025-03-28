@@ -1,0 +1,707 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0%;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+
+
+
+.loha {
+    
+    color: #333333;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex; 
+    justify-content:space-between; 
+    align-items: center;
+    background-color: lightblue;
+    backdrop-filter: blur(10px);
+}
+.NomPage{
+    font-family: 'Pacifico', sans-serif;
+    margin-right: 50px;
+    font-size: 36px;  
+    font-weight: bold; 
+    color: #005F73;  
+    letter-spacing: 2px; 
+    transition: color 0.3s ease; 
+    
+}
+.NomPage:hover{
+    color: #034b5a;
+    text-decoration: underline;
+}
+.placement{
+    display: flex;
+    justify-content: space-between;
+}
+.Accueil{
+    text-align: center;
+    font-size: large;
+    border: none;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: lightblue;
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    color: black;
+    text-decoration: none;
+    
+}
+.SeConnecter{
+    text-align: center;
+    font-size: large;
+    border: none;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: lightblue;
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    color: black;
+    text-decoration: none;
+}
+.Inscription{
+    text-align: center;
+    font-size: large;
+    border: solid rgb(82, 148, 255);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: lightblue;
+    padding: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(129, 177, 226);
+}
+.intro{
+    margin: 10px;
+    padding: 30px;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    background-color:  rgb(195, 227, 255,0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 77% 23% 79% 21% / 22% 79% 21% 78% ;
+}
+.valeur{
+    margin: 10px;
+    padding: 30px;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    background-color:  rgb(195, 227, 255,0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 77% 23% 79% 21% / 22% 79% 21% 78% ; 
+}
+.objectif{
+    margin: 10px;
+    padding: 30px;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    background-color:  rgb(195, 227, 255,0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 77% 23% 79% 21% / 22% 79% 21% 78% ; 
+}
+.presentation{
+    display: flex;
+    justify-content:space-around ;
+
+}
+.dos1{
+    margin: 30px;
+    padding: 10px;
+    width: 210px;
+    height: 250px;
+    border-radius: 87% 13% 90% 10% / 12% 88% 12% 88% ;
+    background-color: rgb(146, 192, 232);
+}
+.dos2{
+     margin: 30px;
+    padding: 10px;
+    width: 210px;
+    height: 250px;
+    border-radius: 87% 13% 90% 10% / 12% 88% 12% 88% ;
+    background-color:  rgb(146, 192, 232)
+}
+.dos3{
+     margin: 30px;
+    padding: 10px;
+    width: 210px;
+    height: 250px;
+    border-radius: 87% 13% 90% 10% / 12% 88% 12% 88% ;
+    background-color:  rgb(146, 192, 232)
+}
+.pPres{
+    font-family: Arial, sans-serif;
+    color: #333333;
+    font-size: small;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.Art1{
+    width: 100%;
+    height: 592px;
+    background-color: beige;
+}
+.div1{
+    width: 100%;
+    height: 296px;
+    padding-top: 0%;
+    background-image: url(../Image/horizontal-view-asphalt-road-nature-260nw-2480744761.webp);
+    background-size: cover;
+    background-position-y: 70%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.NavDiv{
+    width: 94%;
+    height: 36px ;
+    margin-top: 0px;
+    background-color: beige;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: row;
+}
+.depart{
+    width: 22%;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 2%;
+}
+.InpDPRT{
+    width: 90%;
+    height: 36px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: beige;
+    border: none;
+}
+.Brbr1{
+    width: 10%;
+    height: 36px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: lightblue;
+}
+.arriver{
+    width: 22%;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 2%;
+}
+.InpARRV{
+    width: 90%;
+    height: 36px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: beige;
+    border: none;
+}
+.Brbr2{
+    width: 10%;
+    height: 36px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: lightblue;
+}
+.divBT1{
+    width: 15%;
+    height: 36px;
+    border-radius: 10px;
+    flex-direction: row;
+    text-align: center;
+}
+.BT1{
+    width: 100%;
+    height: 36px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.Agenda{
+    width: 20%;
+    height: 31px;
+    background-image: url(../Image/pngtree-agenda-icon-vector-illustration-in-line-style-for-any-purpose-png-image_4257763-removebg-preview.png);
+    background-size: contain;
+    border-radius: 10%;
+}
+.Agdt{
+    margin-top: 2%;
+    margin-left: 20px;
+    color: white;
+}
+.divBT2{
+    width: 20%;
+    height: 36px;
+    border-radius: 10px;
+    margin-left: 1%;
+}
+.BT2{
+    width: 100%;
+    height: 36px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: row;
+}
+.Passager{
+    width: 14%;
+    height: 31px;
+    background-image: url(../Image/360_F_398743626_vKsMLySY8Ly5mVbAVYTprZVp4kixUGFF-removebg-preview.png);
+    background-size: contain;
+    border-radius: 10%;
+}
+.Psgt{
+    margin-top: 2%;
+    margin-left: 45px;
+    color: white;
+}
+.Recherche{
+    width: 15%;
+    height: 36px;
+    border-radius: 10px;
+    margin-left: 1%;
+}
+.InpRCH{
+    width: 100%;
+    height: 36px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: beige;
+}
+.Art2{
+    width: 100%;
+    height: 312px;
+    background-color: rgb(245, 245, 220);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.div2{
+    width: 20%;
+    height:200px ;
+    
+    margin-top: 56px;
+    text-align: center;
+    border-radius: 10px;
+    border: 0px solid gray;
+}
+.div3{
+    width: 30%;
+    height:200px ;
+
+    margin-top: 56px;
+    text-align: center;
+    border-radius: 10px;
+    border: 0px solid gray;
+}
+.div4{
+    width: 20%;
+    height:200px ;
+
+    margin-top: 56px;
+    text-align: center;
+    border-radius: 10px;
+    border: 0px solid gray;
+}
+h3{
+    color: rgb(49, 49, 49);
+    margin-top: 20px;
+}
+p{
+    color: rgb(102, 102, 102);
+    margin-top: 20px;
+    font-size: 18px;
+}
+.div5{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    background-color: rgb(245, 245, 220);
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.div6{
+    width: 33%;
+    height: 300px;
+    background-image: url(../Image/illustration-concept-covoiturage_114360-9238.avif);
+    background-size: contain;
+    background-size: cover;
+    border-image: fill;
+    border-radius: 40px;
+}
+.div7{
+    width: 40%;
+    height: 300px; 
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 0px solid gray;
+}
+.hdiv7{
+    margin-top: 20px;
+    color: rgb(49, 49, 49);
+}
+.Bt1{
+    width: 50%;
+    height: 40px;
+    margin-top: 20px;
+    background-color: skyblue;
+    color:  rgb(102, 102, 102);
+    margin-left: 30%;
+    border-top-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+.div8{
+    width: 100%;
+    height: 600px;
+   background-color:  rgb(245, 245, 220);
+}
+.div9{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+.hdiv9{
+    font-size: 30px;
+    text-shadow: 1px 1px;
+    margin-top: 0%;
+}
+.div10{
+    width: 90%;
+    height:530px ;
+    border-radius: 10px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.aville{
+    margin-top: 20px;
+    font-size: larger;
+}
+.abn11{
+    width: 100%;
+    height: 230px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(../Image/villes/DJI_0201-1-1024x575.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+.nna11{
+    width: 100%;
+    height: 265px;
+    background-color: lightblue;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+}
+.sr11{
+    width: 100%;
+    height: 35px;
+    background-color: skyblue;
+    text-align: center;
+}
+.sr12{
+    width: 100%;
+    height: 35px;
+    background-color: skyblue;
+    text-align: center;
+}
+.sr13{
+    width: 100%;
+    height: 35px;
+    background-color: skyblue;
+    text-align: center;
+}
+.abn12{
+    width: 100%;
+    height: 230px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(../Image/Villes/unnamed.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+.nna12{
+    width: 100%;
+    height: 265px;
+    background-color: lightblue;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+}
+.abn13{
+    width: 100%;
+    height: 230px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(../Image/Villes/ToliaraBd.Wappen1.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+.nna13{
+    width: 100%;
+    height: 265px;
+    background-color: lightblue;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+}
+.div11{
+    width: 30%;
+    height: 530px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.div12{
+    width: 30%;
+    height: 530px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.div13{
+    width: 30%;
+    height: 530px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.Art3{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+}
+.ambonySCRT{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(245, 245, 220);
+}
+.div14{
+    width: 35%;
+    height: 300px;
+    border-radius: 15px;
+    background-image: url(../Image/b1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 7%;
+}
+.div15{
+    width: 40%;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 8%;
+}
+.Hdiv15{
+    font-size: 30px;
+}
+.div15BT{
+    width: 45%;
+    height: 40px;
+    background-color: skyblue;
+    margin-top: 20px;
+    margin-left: 25%;
+    border-top-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+h4{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.div16{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(245, 245, 220) ;
+    display: flex;
+    flex-direction: row;
+}
+.div17{
+    width: 35%;
+    height: 270px;
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-left: 10%;
+    display: flex;
+    margin-top: 75px;
+    padding-top: 38px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div18{
+    width: 38%;
+    height: 340px;
+    background-image: url(../Image/17573886-heureux-apprenti-conducteur-girl-portrait-souriant-avec-des-clés-de-voiture\(1\).jpg);
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-top: 55px;
+}
+H2{
+    color: white;
+}
+.BTdiv17{
+    width: 36%;
+    height: 40px;
+    background-color: skyblue;
+    border-top-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    margin-top: 12px;
+}
+footer{
+    width: 100%;
+    height: 760px;
+    background-image: url(../Image/12769575-fond-de-modele-creatif-de-banniere-web-vignette-degrade-bleu-ciel-profond-vectoriel.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+}
+.divFOOT{
+    width: 100%;
+    height: 690px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+.div19{
+    width: 17%;
+    height: 490px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-left: 13%;
+    margin-right: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.div20{
+    width: 16%;
+    height: 500px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-right: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.div21{
+    width: 16%;
+    height: 500px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-right: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.div22{
+    width: 20%;
+    height: 660px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.BTFoot{
+    width: 90%;
+    height: 50px;
+    background-color: skyblue;
+    border-radius: 20px;
+}
+h1{
+    color: whitesmoke;
+}
+.logo{
+    width: 100%;
+    height:50px ;
+    display: flex;
+    flex-direction: row;
+}
+.a1{
+    width: 25%;
+    height: 50px;
+}
+.a2{
+    width: 30%;
+    height: 50px;
+}
+.a3{
+    width: 18%;
+    height: 50px;
+}
+.a4{
+    width: 23%;
+    height: 50px;
+    margin-left: 15px;
+}
+img{
+    width: 100%;
+    height: 50px;
+}
