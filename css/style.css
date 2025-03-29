@@ -2,13 +2,40 @@
     box-sizing: border-box;
     font-family: sans-serif;
     margin: 0%;
+    
 }
 header{
     width: 100%;
     height: 60px;
 }
-
-
+p{
+    pointer-events: none;
+    user-select: none;
+}
+h2{
+    pointer-events: none;
+    user-select: none;
+}
+h3{
+    pointer-events: none;
+    user-select: none;
+}
+h4{
+    pointer-events: none;
+    user-select: none;
+}
+h5{
+    pointer-events: none;
+    user-select: none;
+}
+h6{
+    pointer-events: none;
+    user-select: none;
+}
+input {
+    border: none;
+    outline: none;
+}
 
 .loha {
     
