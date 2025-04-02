@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif
+}
+
+body {
+    background-color: #f8f9fe;
+    margin: 0;
+    padding: 0;
+    color: #366945;
+}
+
+.tete {
+    background-color: #f8f9fe;
+    height: 130px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    display: flex; 
+    justify-content:space-between; 
+    align-items: center;
+}
+
+.Nom{
+    margin-right: 50px;
+    font-size: 36px;  
+    font-weight: bold;   
+}
+
+.placement{
+    display: flex;
+    justify-content: space-between;
+}
+
+.propos {
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    color: black;
+    text-decoration: none;
+    
+}
+.marche{
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    color: black;
+    text-decoration: none;
+}
+.connection{
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    color: black;
+    text-decoration: none;
+}
+
+.find {
+    box-shadow: none;
+    width: 100%;
+    height: 50vh;
+}
+
+.about {
+    width: 100%;
+    height:60vh;
+}
+
+.label {
+    text-align: center;
+    color: snow;
+    background-color:#366945 ;
+    width: 100%;
+    height: 40vh;
+}
+
+.trouver {
+    padding-left: 80px;
+    padding-top: 10px ;
+    font-size: 36px;  
+    font-weight: bold;   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+.recherche{
+    padding-top: 20px;
+}
+
+input[type="text"], input[type="date"] {
+    width: 88%;
+    padding: 8px;
+    margin-top: 20px; /* Increased margin for more spacing */
+    margin-bottom: 10px; /* Added margin to create space between inputs */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.about1{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.about2{
+    flex: 1;
+    padding-right: 20px;
+}
+
+.liste{
+    padding-left: 180px;
+    font-weight: normal;
+    font-size: large;
+    list-style: none;
+}
+
+.fiara{
+    flex: 1;
+    text-align: center;
+}
+
+.conducteur{
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Aide{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.btn{
+    background-color: #ffd134;
+    border: none;
+    color: #366945;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.submit {
+    margin-top: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: #ffd134;
+    color:#366945;
+    font-weight: bolder;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.Roulez{
+    font-size: 50px;
+    padding-left: 150px;
+    font-weight: bolder ;
+}
+
+.Phrase{
+    padding-left: 150px;  
+    font-size: 25px;
+    font-weight: normal;   
+}
+
+.section {
+    display: flex;
+    width: 88%;
+    gap: 10px;
+}

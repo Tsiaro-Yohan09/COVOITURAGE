@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr"></html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Page d'Accueil</title>
+        <link rel='stylesheet' href='../css/Accueil.css' type='text/css' />
+        <link rel="icon" href="../Image/Logo.png" type="image/png">
+    </head>
+    <body>
+        <header class="tete">
+            <h1 class="NomPage">FIARAKO </h1>
+            <div class="placement"> 
+                <a class="propos" href="../index.html">À propos</a>    
+                <a class="marche" href="facebook.com">Comment ça marche?</a>
+                <a class="connection" href="login.html">Se connecter</a>
+            </div>
+        </header>
+                <h1 class="trouver">Trouver une voiture</h1>
+                <form id="searchForm" class="recherche">
+                    <div class="section">
+                        <input type="text" id="depart" name="depart" placeholder="Ville de départ" required>
+                        <input type="text" id="arrivee" name="arrivee" placeholder="Ville d'arrivée" required>
+                    </div>
+                    <input type="date" id="date" name="date" required>
+                    <button type="submit" class="submit">Rechercher</button>
+                </form>
+            <div class="about">
+                <div class="about1">
+                    <div class="about2">
+                        <h1 class="Roulez">Roulez ensemble.<br>Payez moins !</h1>
+                        <br>
+                        <p class="Phrase">Envie de voyager malin ? Avec notre plateforme de covoiturage, partagez vos trajets en toute simplicité !<br>
+                        Que vous soyez conducteur ou passager, profitez d’un voyage économique, écologique et convivial.</p>
+                        <br>
+                        <ul class="liste">
+                            <li>💰 <strong>Économisez sur vos déplacements</strong></li>
+                            <li>🌍 <strong>Diminuez votre empreinte carbone</strong></li>
+                            <li>🤝 <strong>Partagez la route en toute sécurité</strong></li>
+                        </ul>
+                    </div>
+                    <div class="fiara">
+                        <img class="Fiara" src="image page/image-page.jpg" alt="FIARAKO.png" style="width: 100%; max-width: 500px;">
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="label">
+                    <h2 class="conducteur">🚗 Vous êtes conducteur ? Partagez votre itinéraire !</h2>
+                    <p class="Aide">Vous prévoyez un trajet en voiture et avez des places libres ? Publiez votre itinéraire en quelques secondes et trouvez des passagers pour partager le voyage.<br>
+                    En proposant un covoiturage, vous réduisez vos frais de transport, rendez service à d'autres voyageurs et contribuez à un mode de déplacement plus écologique.<br>
+                    Ne voyagez plus seul, rejoignez notre communauté et faites de chaque trajet un moment convivial !</p>
+                    <a href="#" class="btn">Publier un itinéraire</a>
+                </div>
+            </footer>
+        <script src="Accueil.js"></script>
+    </body>
+</html>
